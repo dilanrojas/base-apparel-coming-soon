@@ -9,33 +9,35 @@
 </head>
 
 <body>
-  <section class="columns">
-    <section class="content">
-      <div class="content-wrapper">
-        <img class="bg-pattern" src="./assets/bg-pattern-desktop.svg" alt="Background pattern">
-        <header class="content-header">
-          <img src="./assets/logo.svg" alt="Base Apparel logo">
-        </header>
-        <article class="content-article">
-          <h1><strong>We're</strong> coming soon</h1>
-          <p>
-            Hello fellow shoppers! We're currently building our new fashion store.
-            Add your email below to stay up-to-date with announcements and our launch deals.
-          </p>
-        </article>
-        <footer class="content-footer">
-          <form>
-            <input type="email" name="email-input" placeholder="Email Address">
-            <button type="button"><img src="./assets/icon-arrow.svg" alt="Arrow right"></button>
-          </form>
-        </footer>
-      </div>
+  <main>
+    <section class="columns">
+      <section class="content">
+        <div class="content-wrapper">
+          <img class="bg-pattern" src="./assets/bg-pattern-desktop.svg" alt="Background pattern">
+          <header class="content-header">
+            <img src="./assets/logo.svg" alt="Base Apparel logo">
+          </header>
+          <article class="content-article">
+            <h1><strong>We're</strong> coming soon</h1>
+            <p>
+              Hello fellow shoppers! We're currently building our new fashion store.
+              Add your email below to stay up-to-date with announcements and our launch deals.
+            </p>
+          </article>
+          <footer class="content-footer">
+            <form>
+              <input type="email" name="email-input" placeholder="Email Address">
+              <button type="button"><img src="./assets/icon-arrow.svg" alt="Arrow right"></button>
+            </form>
+          </footer>
+        </div>
+      </section>
+      <picture class="girl-picture">
+        <source srcset="./assets/hero-mobile.jpg" media="(width <= 768px)">
+        <img src="./assets/hero-desktop.jpg" alt="Girl in a orange shirt">
+      </picture>
     </section>
-    <picture class="girl-picture">
-      <source srcset="./assets/hero-mobile.jpg" media="(width <= 768px)">
-      <img src="./assets/hero-desktop.jpg" alt="Girl in a orange shirt">
-    </picture>
-  </section>
+  </main>
 </body>
 
 </html>
